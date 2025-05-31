@@ -269,7 +269,7 @@ All dependencies are checked for GPL-3.0+ compatibility using `licensecheck`. Th
 
 ## License
 bloomtracker - API client for the "Deutscher Wetterdienst" to get the current pollen load in Germany
-Copyright (C) 2019  Sascha Triller
+Copyright (C) 2025  Sascha Triller
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
