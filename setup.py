@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='bloomtracker',
-    version='0.4.0',
+    version='0.4.1',
     author='Sascha Triller',
     author_email='sascha.triller@posteo.de',
     description='API client for the "Deutscher Wetterdienst" to get the current pollen load in Germany',

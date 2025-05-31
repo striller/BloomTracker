@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.4.1 (2025-05-31)
+
+### Bug Fixes
+- Fixed version inconsistencies across package files
+- Updated dependencies for improved compatibility
+- Added GitHub Actions workflow for automated PyPI publishing
+
 ## v0.4.0 (2025-05-31)
 
 ### Breaking Changes

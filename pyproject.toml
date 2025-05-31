@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bloomtracker"
-version = "0.4.0"
+version = "0.4.1"
 description = "API client for the 'Deutscher Wetterdienst' to get the current pollen load in Germany"
 readme = "README.md"
 authors = [
