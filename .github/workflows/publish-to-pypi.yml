@@ -4,9 +4,9 @@ on:
   release:
     types: [created]
   # Optionally trigger on specific tags
-  # push:
-  #   tags:
-  #     - 'v*'  # Push events to matching v*, i.e. v1.0, v20.15.10
+  push:
+     tags:
+       - 'v*'  # Push events to matching v*, i.e. v1.0, v20.15.10
 
 jobs:
   build-and-publish:
