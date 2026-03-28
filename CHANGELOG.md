@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.2 (2026-03-28)
+
+### Bug Fixes
+- Fix dependabot config: set package-ecosystem to pip
+
 ## v0.4.1 (2025-05-31)
 
 ### Bug Fixes
