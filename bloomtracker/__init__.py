@@ -29,5 +29,5 @@ logging.basicConfig(level=logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.DEBUG)
 
-__version__ = '0.4.1'
+__version__ = '0.4.3'
 __all__ = ['DwdPollenApi', 'AsyncDwdPollenApi', 'DwdPollenError', 'REGIONS', 'ALLERGENS']

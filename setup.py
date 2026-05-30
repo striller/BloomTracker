@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='bloomtracker',
-    version='0.4.1',
+    version='0.4.3',
     author='Sascha Triller',
     author_email='sascha.triller@posteo.de',
     description='API client for the "Deutscher Wetterdienst" to get the current pollen load in Germany',
@@ -14,14 +14,14 @@ setuptools.setup(
     url='https://github.com/striller/BloomTracker',
     packages=['bloomtracker'],
     install_requires=[
-        'requests>=2.31.0', 
+        'requests>=2.31.0',
         'pytz>=2023.3',
         'aiohttp>=3.8.0',
         'rich>=13.0.0',
         'matplotlib>=3.5.0',
         'numpy>=1.20.0',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.7',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',

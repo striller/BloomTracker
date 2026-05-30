@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.4.3 (2026-05-30)
+
+### Bug Fixes
+- Fixed version inconsistency in `setup.py` (was still `0.4.1`)
+- Updated `python_requires` in `setup.py` from `>=3.6` to `>=3.7` to match `pyproject.toml`
+
+### Infrastructure
+- Switched PyPI publishing to **trusted publishing** (OIDC)
+  - Removed `PYPI_USERNAME` / `PYPI_PASSWORD` secrets requirement
+  - Updated workflow to use `pypa/gh-action-pypi-publish`
+
 ## v0.4.2 (2026-03-28)
 
 ### Bug Fixes
